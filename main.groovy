@@ -12,7 +12,7 @@ perro.name = "Loky"
 println "Mostrando instancia del perro ${perro.dump()}"
 println "Asignando nombre para el gato"
 gato.name = "Wine"
-println "Mostrando instancia del gato ${gato.dump()}"
+println "Ejecutando servicio de patas ...."
 service.addPatasToAnimals(perro, gato)
 println "Mostrando instancias de nuevo"
 println "Perro: ${perro.dump()}"
