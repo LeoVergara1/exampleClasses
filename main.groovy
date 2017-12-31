@@ -18,4 +18,8 @@ println "Mostrando instancias de nuevo"
 println "Perro: ${perro.dump()}"
 println "Gato: ${gato.dump()}"
 
+println "Ejecutanto metodos de instancias..."
+perro.correr()
+gato.corre()
+
 
