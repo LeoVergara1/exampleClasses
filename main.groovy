@@ -22,4 +22,11 @@ println "Ejecutanto metodos de instancias..."
 perro.correr()
 gato.corre()
 
+println "Leyendo XML"
+Map perroMap = service.leerXMLPerro()
+
+println "Mostrando mapa del perro desde el XML"
+
+println perroMap
+
 

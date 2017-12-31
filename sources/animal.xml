@@ -1,0 +1,12 @@
+<animal>
+  <perro>
+    <name name='LockXML'>lockyXML</name>
+    <patas patas='patas de perro'>Patas de perro</patas>
+    <cara cara='Cara de perro'>Cara de perro</cara>
+  </perro>
+  <gato>
+    <name name='LockXML'>winiXML</name>
+    <patas patas='patas de perro'>Patas de gato</patas>
+    <cara cara='Cara de perro'>Cara de gato</cara>
+  </gato>
+</animal>

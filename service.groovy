@@ -7,4 +7,12 @@ class Service {
     gato.patas = "patas de gato"
     "hecho.... servicio"
   }
+
+  Map leerXMLPerro(){
+    def animal = new XmlSlurper().parse(new File('sources/animal.xml'))
+    [name: animal.perro.name,
+     cara: animal.perro.cara,
+     patas: animal.perro.patas
+     ]
+  }
 }
