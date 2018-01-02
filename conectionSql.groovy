@@ -1,11 +1,9 @@
 package clasess
 
+import java.sql.*
 @Grab('mysql:mysql-connector-java:5.1.25')
 @GrabConfig(systemClassLoader = true)
 import groovy.sql.Sql
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
 
 @Singleton
 class SqlConection {
