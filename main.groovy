@@ -3,6 +3,7 @@ package clasess
 
 Perro perro = new Perro()
 Gato gato = new Gato()
+SqlConection sql = new SqlConection()
 //Injectado servicio
 
 Service service = new Service()
@@ -28,5 +29,9 @@ Map perroMap = service.leerXMLPerro()
 println "Mostrando mapa del perro desde el XML"
 
 println perroMap
+
+println "Mostrando conexión a base"
+println sql.dump()
+
 
 
